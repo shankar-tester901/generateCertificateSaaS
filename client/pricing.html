@@ -1,0 +1,65 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script src="main.js"></script>
+  </head>
+
+  <body>
+    <style>
+      .content_pricelist {
+        width: 400px;
+        margin: 70px auto 0;
+        padding: 30px 20px;
+        background: #f4f7f8;
+        border-radius: 8px;
+      }
+      .content_pricelist p:first-child {
+        margin-bottom: 25px;
+      }
+      .content_pricelist p span {
+        color: #545454;
+        margin: 0 0 10px;
+        display: block;
+      }
+      .content_pricelist button {
+        border: none;
+        padding: 15px 39px 15px 39px;
+      }
+      body {
+        margin: 0;
+      }
+    </style>
+    <header>
+      <p>
+        <a href="./index.html">Home</a>
+      </p>
+    </header>
+
+    <div>
+      <div class="content_pricelist">
+        <p>
+          <span> Option 1 - 50 Downloads - Rs. 50</span>
+          <button class="button" onclick="pay50()" id="pay50">Pay 50</button>
+        </p>
+
+        <p>
+          <span> Option 2 - 150 Downloads - Rs. 100</span>
+          <!-- <a href="https://buy.stripe.com/test_cN23fHa466jX4oM3ce" id="pay100">Pay 100</a> -->
+          <button class="button" onclick="pay100()" id="pay100">Pay 100</button>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,294 @@
+.txt-input{
+  width: 60%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+.custom-file-input::-webkit-file-upload-button {
+  visibility: hidden;
+}
+.custom-file-input {
+  color: transparent;
+}
+.custom-file-input::before {
+  content: 'Select some files';
+  display: inline-block;
+  background: #fff;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  padding: 5px 8px;
+  outline: none;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 10pt;
+  color: #333;
+    margin: 10px;
+}
+.main-container{
+
+}
+.custom-file-input:hover::before {
+  border-color: black;
+}
+.custom-file-input:active::before {
+  background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}
+.btn{
+  border: 1px solid #333;
+  background: #fff;
+  padding: 7px 10px;
+  border-radius: 3px;
+}
+ .content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 500px;
+            height: 200px;
+            text-align: center;
+            background-color: #e8eae6;
+            box-sizing: border-box;
+            padding: 10px;
+            z-index: 100;
+            display: none;
+            /*to hide popup initially*/
+        }
+          
+        .close-btn {
+            position: absolute;
+            right: 20px;
+            top: 15px;
+            background-color: black;
+            color: white;
+            border-radius: 50%;
+            padding: 4px;
+        }
+
+
+
+.circle {
+  border-radius: 78%;
+  width: 280px;
+  height: 280px;
+  border: 1px solid #000;
+  color: #290860;
+  text-align: center;
+  font: 15px Arial, sans-serif;
+  line-height: 280px;
+  margin-top: 70px;
+  margin-left: 100px;
+  background-color:floralwhite;
+}
+
+.main-container{
+  max-width: 95%;
+    margin: 0 auto;
+}
+.row {
+  display: flex;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 42%;
+  padding: 10px;
+ /* Should be removed. Only for demonstration */
+}
+.column:last-child{
+  flex: 20%;
+}
+.certificateSAS {
+  display: none;
+}
+
+
+
+.button {
+    border - radius : 0;
+    color : black;
+    background : rgb(130, 221, 219);
+}
+
+canvas { /* or some other selector */
+    width : 600 px;
+    height : 50 px;
+}
+header{
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  background-color: #34495e;
+}
+header p{
+  float: right;
+  overflow: hidden;
+  display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 5px 20px;
+    margin-bottom: 0;;
+}
+header p a{
+  color: #fff;
+  text-decoration: none;
+}
+a {
+    color: #0d6efd;
+    text-decoration: underline;
+}
+.selectcertificate {
+ 
+  color: #313949;
+  position: relative;
+  border: 1px solid #d0d4df !important;
+  font-size: 15px;
+  line-height: 1;
+  cursor: pointer;
+  border-radius: 6px;
+  display: inline-block;
+  overflow: hidden;
+}
+.selectcertificate select{
+  border:none;
+  background-color: none !important;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding: 8px 32px 8px 20px;
+  background: linear-gradient(#fcfdff 0, #eaeef5 100%) no-repeat padding-box !important;
+
+  border-radius: 6px;
+}
+.selectcertificate:after{
+content: "";
+transform: scale(1.3);
+transform-origin: center;
+background-image: url(https://img.zohocdn.com/crm/CRMClient/images/crm-svgicons_b7e7b04_.svg);
+background-position: -225px -698px;
+width: 7px;
+height: 5px;
+top: calc(50% - 3px);
+display: inline-block;
+opacity: .6;
+position: absolute;
+right: 12px;
+}
+.secondaryhead{
+  padding: 10px 30px;
+  background: #fff;
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,.06);
+}
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea{
+  background: rgba(255,255,255,0.1);
+  border: none;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  width: 100%;
+  background-color: #e8eeef;
+  color: #343434;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 30px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 0 4px 8px 0;
+}
+
+select {
+  padding: 6px;
+  height: 32px;
+  border-radius: 2px;
+}
+
+button {
+  padding: 19px 39px 18px 39px;
+  color: #FFF;
+  background-color: #4bc970;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid #3ac162;
+  border-width: 1px 1px 3px;
+  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+  margin-bottom: 10px;
+}
+
+fieldset {
+  margin-bottom: 30px;
+  border: none;
+}
+
+legend {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+label.light {
+  font-weight: 300;
+  display: inline;
+}
+
+.number {
+  background-color: #5fcf80;
+  color: #fff;
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  font-size: 0.8em;
+  margin-right: 4px;
+  line-height: 30px;
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+  border-radius: 100%;
+}
+.inputfile {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+.inputfile + label {
+  max-width: 100%;
+  font-size: 1.25rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  cursor: pointer;
+  display: inline-block;
+  overflow: hidden;
+  padding: 0.625rem 1.25rem;
+  border: 1px solid #d7d7d7;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+.inputfile-2 + label {
+  color: #d3394c;
+  border: 2px solid currentColor;
+}
